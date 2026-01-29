@@ -2,6 +2,8 @@ import ProjectCard from "@/components/ProjectCard";
 import { supabase } from "@/lib/supabase";
 import { Project } from "@/types";
 
+export const dynamic = 'force-dynamic';
+
 export default async function ProjectsPage() {
   // Try to fetch from Supabase
   let projects: Project[] = [];

@@ -38,25 +38,25 @@ create policy "Public projects view" on projects for select using (true);
 -- 5. Insert Initial Projects
 insert into projects (title, description, tech_stack, demo_url, image_url)
 values (
-  'Aguda Mishpat', 
-  'A comprehensive digital platform for the legal association. Features include member management, dynamic resource libraries, and an integrated event scheduling system.', 
-  ARRAY['Next.js', 'TypeScript', 'Tailwind CSS'], 
-  'https://agudamishpat.co.il', 
+  'Aguda Mishpat',
+  'A comprehensive digital platform for the legal association. Features include member management, dynamic resource libraries, and an integrated event scheduling system.',
+  ARRAY['Vite', 'React', 'TypeScript', 'Tailwind CSS'],
+  'https://agudamishpat.co.il',
   '/assets/agudamishpatwebsite.png'
 );
 
 insert into projects (title, description, tech_stack, image_url)
 values (
-  'MagicBoo Discord Bot', 
-  'An advanced, multi-purpose Discord bot featuring automated moderation, interactive mini-games, and a modular plugin system designed for community engagement.', 
-  ARRAY['JavaScript', 'Node.js', 'Shell', 'Docker'], 
+  'MagicBoo Discord Bot',
+  'An advanced, multi-purpose Discord bot featuring automated moderation, interactive mini-games, and a modular plugin system designed for community engagement.',
+  ARRAY['JavaScript', 'Node.js', 'Shell', 'Docker'],
   'https://placehold.co/800x600/5865f2/ffffff?text=MagicBoo+Bot&font=roboto'
 );
 
 insert into projects (title, description, tech_stack, image_url)
 values (
-  'BypassSim', 
-  'A specialized simulation tool for heart-lung bypass procedures. Currently in active development and looking for collaborators to enhance medical training simulations.', 
-  ARRAY['Python'], 
+  'BypassSim',
+  'A specialized simulation tool for heart-lung bypass procedures. Currently in active development and looking for collaborators to enhance medical training simulations.',
+  ARRAY['Python'],
   'https://placehold.co/800x600/ef4444/ffffff?text=BypassSim+Surgery&font=roboto'
 );
