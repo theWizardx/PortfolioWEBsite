@@ -60,3 +60,12 @@ values (
   ARRAY['Python'],
   'https://placehold.co/800x600/ef4444/ffffff?text=BypassSim+Surgery&font=roboto'
 );
+
+insert into projects (title, description, tech_stack, image_url, repo_url)
+values (
+  'Claude Code Office',
+  'A real-time visualization dashboard that transforms AI agent activity into a retro pixel art office environment. Monitors Claude Code agent operations and renders them as animated characters working at desks, complete with speech bubbles and interactive dashboard views.',
+  ARRAY['JavaScript', 'Node.js', 'Express', 'WebSocket', 'HTML5 Canvas', 'CSS'],
+  '/assets/office-preview.png',
+  'https://github.com/theWizardx/Office'
+);
